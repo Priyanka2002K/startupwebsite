@@ -1,0 +1,82 @@
+#fh{
+    background-color: pink;
+    height:20%;
+    opacity: 0.7;
+    color: black;
+    align-content: center;
+    padding-left: 600px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration:solid;
+    
+
+
+}
+#footer{
+    
+    color: white;
+    opacity: 0.7;
+    float: right;
+    padding-top:5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    padding-left: 10px;
+
+    
+
+    
+}
+.div{
+    display: flex;
+    flex-direction: row;
+    border: 3px;
+    background-color:rgb(208, 162, 208);
+    border:3px;
+    border-color: purple;
+    padding: 10px;
+    align-items: center;
+    opacity: 0.7;
+
+}
+.fd{
+    position:relative;
+    border-color: plum;
+    border:3px;
+
+
+}
+img{
+    border:3px;
+    border-color: purple;
+}
+body{
+    background-color: azure;
+}
+#loginsignup{
+    color: purple;
+    border-radius:4px;
+    border-color: blueviolet;
+    height:30px;
+    background-color: rgb(227, 196, 235);
+    box-shadow:5px 3px 5px 0px rgba(0, 0, 0, 0.4);
+    
+
+}
+#video{
+    border-color: blueviolet;
+    border:3px;
+}
+.fdd{
+    font-size: large;
+    color:blueviolet;
+}
+.fc{
+    align-content: center;
+}
+

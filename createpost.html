@@ -1,0 +1,69 @@
+<html>
+    <head>
+      <link href="createpost.css" rel="stylesheet">  
+    </head>
+    <body style="background-color: rgb(196, 234, 234);">
+        
+    <main class="post-container"> 
+        <div id="createPostModal" class="modal"> 
+            <div class="modal-content"> 
+                <span class="close" id="closeModal"></span> 
+                <h2 class="heading">Create a New Post</h2> 
+                <form id="postForm"> 
+                    <div class="upper"> 
+                        <div class="title"> 
+                            <label class="postheading" for="postTitle"> 
+                                  Title 
+                              </label> 
+                              <br>
+                            <input type="text" class="postTitle"
+                             id="postTitle" name="postTitle"
+                              autocomplete="off" required> 
+                        </div> 
+                        <br>
+                        <div class="category1"> 
+                            <label class="postheading" for="postCategory"> 
+                                  Category 
+                              </label> 
+                              <br>
+                            <input type="text" class="postCategory"
+                             id="postCategory" name="postCategory" 
+                             autocomplete="off" required> 
+                        </div> 
+                    </div> 
+                    <br>
+  
+                    <label class="postheading" for="postDescription"> 
+                          Description 
+                      </label> 
+                      <br>
+                    <textarea class="postDescription" id="postDescription" 
+                               name="postDescription" autocomplete="off" 
+                               required> 
+                      </textarea> 
+  
+                    <button type="submit" id="postSubmitBtn" 
+                    class="postSubmitBtn">Post</button> 
+                </form> 
+            </div> 
+        </div> 
+  
+        <!-- Detail Modal -->
+        <div id="postDetailModal" class="modal"> 
+            <div class="modal-content"> 
+                <span class="close" id="closeDetailModal"> 
+                      × 
+                  </span> 
+                <h1 id="detailTitle"></h1> 
+                <span id="detailDate"></span> 
+                <p id="detailDescription"></p> 
+            </div> 
+        </div> 
+  
+        <div id="postCreatedMessage" class="post-message"> 
+            Post created successfully! 
+          </div> 
+  
+    </main> 
+    </body>
+</html>

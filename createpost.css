@@ -1,0 +1,50 @@
+.createPostModal{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+}
+.post-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    border: 3px solid black;
+    padding-top: 10px;
+    background-color: rgb(124, 201, 201);
+    opacity: 0.8;
+    
+    
+    
+}
+.postSubmitBtn{
+    height: 30px;
+    width: 60px;
+    border-radius: 4px;
+    font-size: 10px;
+    background-color: rgb(182, 226, 211);
+    color: black;
+    font-weight: bold;
+}
+.postTitle{
+    border: 2px solid black;
+    height: 30px;
+    border-radius: 5px;
+    width: 250px
+}
+.postcategory{
+    border: 2px solid black;
+    height: 30px;
+    border-radius: 5px;
+    width: 250px
+
+
+}
+.postDescription{
+    border: 2px solid black;
+    height: 30px;
+    border-radius: 5px;
+    width: 250px;
+
+
+}
